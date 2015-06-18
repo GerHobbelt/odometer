@@ -130,7 +130,7 @@
         _this = this;
       this.options = options;
       this.el = this.options.el;
-      if (this.el.odometer != null) {
+      if (typeof this.el.odometer === 'object') {
         return this.el.odometer;
       }
       this.el.odometer = this;

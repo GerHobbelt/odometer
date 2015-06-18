@@ -114,7 +114,7 @@ setTimeout wrapJQuery, 0
 class Odometer
   constructor: (@options) ->
     @el = @options.el
-    return @el.odometer if @el.odometer?
+    return @el.odometer if typeof(@el.odometer) == 'object'
 
     @el.odometer = @
 
