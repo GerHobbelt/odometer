@@ -1,6 +1,6 @@
 {
   "name": "odometer",
-  "version": "0.4.7",
+  "version": "0.4.7-JM",
   "description": "Transition numbers with ease",
   "main": "odometer.js",
   "authors": [
